@@ -21,10 +21,3 @@ setInterval(() => {
 
   let clockElement = document.getElementById("clock");
 clockElement.textContent = getComputerTime();
-
-
-// const moment1 = moment('2024-06-13T15:42:00Z');
-// const moment2 = moment('2024-06-13T16:00:00Z');
-
-// const difference = moment2.diff(moment1, 'minutes');
-// console.log(difference);
